@@ -1,0 +1,19 @@
+<body>
+    <div>
+        <h2>Login</h2>
+        <form [formGroup]="authForm" (ngSubmit)="login(email.value, password.value)">
+            <div class="FormGroup">
+                <label for="email"></label>
+                <input type="email" formControlName="email" name="email" id="email" placeholder="Email" #email>
+            </div>
+            <div class="FormGroup">
+                <label for="password"></label>
+                <input type="password" formControlName="password" name="password" id="password" placeholder="Password" #password>
+            </div>
+            <div class="loginbtn">
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+    </div>
+</body>

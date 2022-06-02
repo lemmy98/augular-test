@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Temi Lemikan",
+      "email": "temi@gmail.com",
+      "age": 30,
+      "gender": "Male",
+      "role": "Frontend Developer",
+      "date_joined": "12/05/2022"
+    },
+    {
+      "name": "Oladosu Favour ",
+      "email": "favour@gmail.com",
+      "age": "20",
+      "gender": "Male",
+      "role": "Frontend",
+      "date_joined": "24/05/2022",
+      "id": 2
+    }
+  ]
+}

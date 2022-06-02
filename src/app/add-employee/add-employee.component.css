@@ -1,0 +1,22 @@
+form {
+    max-width: 500px;
+    margin: 4rem auto;
+    background-color: black;
+    border-radius: 8px;
+}
+label {
+    color: white;
+}
+input {
+    width: 100%;
+}
+.btn-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addbtn {
+    width: 100%;
+    background: gray;
+    color: white;
+}

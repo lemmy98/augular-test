@@ -1,0 +1,24 @@
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Date Joined</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of allEmployees">
+            <td>{{employee.id}}</td>
+            <td>{{employee.name}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.age}}</td>
+            <td>{{employee.gender}}</td>
+            <td>{{employee.role}}</td>
+            <td>{{employee.date_joined}}</td>
+            <td><button type="button">Edit</button></td>
+            <td><button (click)="deleteEmployee(employee.id)" type="button">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
